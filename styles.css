@@ -199,13 +199,160 @@ footer {
 }
 .midias {
   display: flex;
-
   flex-direction: row;
   align-items: center;
   gap: 20px;
 }
 
 /*-------Responsividade------------*/
+@media only screen and (max-width: 2580px) {
+  .subtitle {
+    font-size: 32px;
+  }
+  .title {
+    font-size: 40px;
+  }
+  .message {
+    font-size: 24px;
+  }
+  .container {
+    margin-bottom: 55rem;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-items: center;
+  }
+  .title_item {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .description {
+    width: 90%;
+    line-height: 28px;
+    font-size: 18px;
+  }
+
+  .description_price {
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+  .title_bebidas {
+    text-align: center;
+    font-size: 36px;
+    margin-top: -32rem;
+  }
+  .container_footer {
+    padding: 10px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+  }
+  .midias {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+  .img_midia {
+    width: 25px;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .subtitle {
+    font-size: 30px;
+  }
+  .title {
+    font-size: 36px;
+  }
+  .message {
+    font-size: 20px;
+  }
+  .container {
+    margin-bottom: 75rem;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .title_bebidas {
+    text-align: center;
+    font-size: 28px;
+    margin-top: -32rem;
+  }
+  .container_footer {
+    padding: 10px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+  .midias {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+  .img_midia {
+    width: 20px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .subtitle {
+    font-size: 26px;
+  }
+  .title {
+    font-size: 35px;
+  }
+  .message {
+    font-size: 18px;
+  }
+  .container {
+    margin-bottom: 100rem;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-items: center;
+  }
+  .item {
+    width: 350px;
+    height: 500px;
+  }
+  .title_bebidas {
+    text-align: center;
+    font-size: 28px;
+    margin-top: -32rem;
+  }
+  .container_footer {
+    padding: 10px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+  }
+  .midias {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+  .img_midia {
+    width: 20px;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .subtitle {
     font-size: 22px;
@@ -217,10 +364,105 @@ footer {
     font-size: 18px;
   }
   .container {
+    margin-bottom: 100rem;
     width: 100vw;
     height: 100vh;
-    grid-template-columns: repeat(auto-fill, 300px);
     align-items: center;
     justify-items: center;
+  }
+  .item {
+    width: 350px;
+    height: 500px;
+  }
+  .title_bebidas {
+    text-align: center;
+    font-size: 28px;
+    margin-top: -32rem;
+  }
+  .container_footer {
+    padding: 10px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+  }
+  .midias {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+  .img_midia {
+    width: 20px;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .subtitle {
+    font-size: 18px;
+  }
+  .title {
+    font-size: 24px;
+  }
+  .message {
+    font-size: 16px;
+  }
+  .container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -0rem;
+  }
+  .item {
+    padding: 10px;
+    width: 90%;
+    max-width: 350px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .title_item {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .description {
+    width: 100%;
+    line-height: 24px;
+    font-size: 16px;
+  }
+  .description_price {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .title_bebidas {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+  }
+  .container_footer {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6px;
+    margin-top: 10px;
+  }
+  .midias {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .img_midia {
+    width: 20px;
   }
 }
