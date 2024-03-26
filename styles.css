@@ -398,7 +398,7 @@ footer {
     width: 20px;
   }
 }
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 430px) {
   .subtitle {
     font-size: 18px;
   }
